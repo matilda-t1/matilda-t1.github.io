@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "interior",
+			"path": "..\\..\\..\\Desktop\\interior"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "interior"
+	}
+}
