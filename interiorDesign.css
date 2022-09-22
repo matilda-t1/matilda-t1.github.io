@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: rgba(255, 231, 180, 0.808);
 }
 
 .top-background, .appointment-img{
@@ -193,3 +194,8 @@ a:hover{
     font-size: 16px;
 }
 
+.fa {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
