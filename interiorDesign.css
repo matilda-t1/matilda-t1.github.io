@@ -3,7 +3,7 @@ body{
 }
 
 .top-background, .appointment-img{
-    background-image: url('Kuvat/background.jpg');
+    background-color: rgb(228, 181, 120);
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
