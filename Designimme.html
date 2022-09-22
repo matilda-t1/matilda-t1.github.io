@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>New Document</title>
+    <META NAME="Generator" CONTENT="EditPlus">
+    <META NAME="Author" CONTENT="">
+    <META NAME="Keywords" CONTENT="">
+    <META NAME="Description" CONTENT="">
+    <link rel="stylesheet" href="interiorDesign.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+    function stickyMenu () {
+        var sticky= document.getElementById ("sticky");
+        if(window.pageYOffset > 20) {
+            sticky.classList.add("sticky");
+            sticky.classList.remove("menu-ul");
+        }
+        else{
+            sticky.classList.remove("sticky");
+        }
+    }
+
+    window.onscroll = function () {
+        stickyMenu() ;
+
+    }
+    </script>
+
+</head>
+
+<body>
+    <div class="top-background">
+        <div class="menu" id="sticky">
+            <ul class="menu-ul">
+                <li><a href="index.html">Koti</a></li>
+                <li><a href="Designimme.html">Designimme</a></li>
+                <li><a href="Valitsemeidat.html">Miksi valita meidät?</a></li>
+                <li><a href="Ajanvaraus.html">Ajanvaraus</a></li>
+            </ul>
+        </div>
+        <div class="page-title">SISUSTUSSUUNNITTELUT
+            <div class="description">
+                Tehdään kodistasi upea!
+            </div>
+        </div>
+    </div>
+
+    <div class="page-blocks">
+        <div class="title" data-aos="fade-right">
+            Designimme
+        </div>
+        <div class="design">
+            <img src="Kuvat/design1.jpg" data-aos="fade-up"/>
+            <img src="Kuvat/design2.jpg" data-aos="fade-up"/>
+            <img src="Kuvat/design3.jpg" data-aos="fade-up"/>
+            <img src="Kuvat/design4.jpg" data-aos="fade-up"/>
+            <img src="Kuvat/design5.jpg" data-aos="fade-up"/>
+            <img src="Kuvat/design6.jpg" data-aos="fade-up"/>
+            <img src="Kuvat/design7.jpg" data-aos="fade-up"/>
+            <img src="Kuvat/design8.jpg" data-aos="fade-up"/>
+            <img src="Kuvat/design9.jpg" data-aos="fade-up"/>
+
+        </div>
+        <button class="more-designs-btn" data-aos="fade-up">Lisää malleja</button>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="locations">
+            <div>Sijaintimme<br/>
+                <div class="address">1121 katu<br/>Kaupungin nimi<br/>Postinumero<br/>puh. 0408172652</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script>
+    AOS.init({
+        duration:1400,
+    });
+  </script>
