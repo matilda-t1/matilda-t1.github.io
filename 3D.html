@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <META NAME="Generator" CONTENT="EditPlus">
+    <META NAME="Author" CONTENT="">
+    <META NAME="Keywords" CONTENT="">
+    <META NAME="Description" CONTENT="">
+    <link rel="stylesheet" href="interiorDesign.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+    function stickyMenu () {
+        var sticky= document.getElementById ("sticky");
+        if(window.pageYOffset > 20) {
+            sticky.classList.add("sticky");
+            sticky.classList.remove("menu-ul");
+        }
+        else{
+            sticky.classList.remove("sticky");
+        }
+    }
+
+    window.onscroll = function () {
+        stickyMenu() ;
+
+    }
+    </script>
+
+</head>
+
+<body>
+    <div class="top-background">
+        <div class="menu" id="sticky">
+            <ul class="menu-ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="3D.html">3D models</a></li>
+                <li><a href="2D.html">2D art</a></li>
+                <li><a href="Contact.html">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="page-title">MATILDA TÖRNQVIST
+            <div class="description">
+                Portfolio
+            </div>
+        </div>
+    </div>
+
+    <div class="page-blocks">
+        <div class="title" data-aos="fade-right">
+            Some 3D models I have made with Blender
+        </div>
+        <div class="design">
+            <img src="Kuvat/bow.png" data-aos="fade-up"/>
+            <img src="Kuvat/eyes1.png" data-aos="fade-up"/>
+            <img src="Kuvat/keittiö.png" data-aos="fade-up"/>
+            <img src="Kuvat/robot1.png" data-aos="fade-up"/>
+            <img src="Kuvat/robot2.png" data-aos="fade-up"/>
+            <img src="Kuvat/room3.png" data-aos="fade-up"/>
+            <img src="Kuvat/Useless Robot.png" data-aos="fade-up"/>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="locations">
+            <div><br/>
+                <div class="address"><br/>00200<br/>Helsinki<br/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                    <a href="https://www.linkedin.com/in/matilda-t%C3%B6rnqvist-822541206/" class="fa fa-linkedin"></a>
+                    <a href="https://twitter.com/MatildaT117" class="fa fa-twitter"></a></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script>
+    AOS.init({
+        duration:1400,
+    });
+  </script>
